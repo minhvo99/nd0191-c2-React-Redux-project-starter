@@ -1,4 +1,4 @@
-import { LOGIN_AUTHED_USER, LOGOUT_AUTHED_USER } from "../actions/authedUser"
+import { LOGIN_AUTHED_USER, LOGOUT_AUTHED_USER } from '../actions/authedUser';
 
 const authUser = (state = null, action) => {
   switch (action.type) {
@@ -9,6 +9,6 @@ const authUser = (state = null, action) => {
     default:
       return state;
   }
-}
+};
 
 export default authUser;

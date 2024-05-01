@@ -1,6 +1,6 @@
-import { getInitialData } from "../data/api";
-import { receiveUsers } from "./users";
-import { receiveQuestions } from "./polls";
+import { getInitialData } from '../data/api';
+import { receiveUsers } from './users';
+import { receiveQuestions } from './polls';
 
 const receiveInitialData = () => {
   return async (dispatch) => {
@@ -8,6 +8,6 @@ const receiveInitialData = () => {
     dispatch(receiveUsers(users));
     dispatch(receiveQuestions(questions));
   };
-}
+};
 
 export { receiveInitialData };
