@@ -9,7 +9,7 @@ Object {
         class=" flex justify-center flex-col items-center gap-6"
       >
         <h1
-          class=" text-blue-400 text-4xl p-8 text-center"
+          class="text-center"
         >
           Login
         </h1>
@@ -50,7 +50,7 @@ Object {
           </ul>
         </div>
         <form
-          class=" form-control w-full max-w-xs space-y-6"
+          class=" form-control w-full max-w-lg space-y-6"
         >
           <div
             class=" space-y-2"
@@ -62,7 +62,7 @@ Object {
               Username
             </label>
             <input
-              class="input input-bordered w-full max-w-xs"
+              class="input input-bordered w-full max-w-lg"
               data-testid="username-input"
               id="username"
               name="username"
@@ -80,7 +80,7 @@ Object {
               Password
             </label>
             <input
-              class="input input-bordered w-full max-w-xs"
+              class="input input-bordered w-full max-w-lg"
               data-testid="password-input"
               id="password"
               name="password"
@@ -103,7 +103,7 @@ Object {
       class=" flex justify-center flex-col items-center gap-6"
     >
       <h1
-        class=" text-blue-400 text-4xl p-8 text-center"
+        class="text-center"
       >
         Login
       </h1>
@@ -144,7 +144,7 @@ Object {
         </ul>
       </div>
       <form
-        class=" form-control w-full max-w-xs space-y-6"
+        class=" form-control w-full max-w-lg space-y-6"
       >
         <div
           class=" space-y-2"
@@ -156,7 +156,7 @@ Object {
             Username
           </label>
           <input
-            class="input input-bordered w-full max-w-xs"
+            class="input input-bordered w-full max-w-lg"
             data-testid="username-input"
             id="username"
             name="username"
@@ -174,7 +174,7 @@ Object {
             Password
           </label>
           <input
-            class="input input-bordered w-full max-w-xs"
+            class="input input-bordered w-full max-w-lg"
             data-testid="password-input"
             id="password"
             name="password"
