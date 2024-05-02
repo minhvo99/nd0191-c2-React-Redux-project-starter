@@ -6,6 +6,34 @@ The `_DATA.js` file represents a fake database and methods that let you access t
 
 Using the provided starter code, you'll build a React/Redux front end for the application. We recommend using the [Create React App](https://github.com/facebook/create-react-app) to bootstrap the project.
 
+## Project Setup
+
+- Clone the Project.
+- Install the dependencies: `npm install`
+- Start the server: `npm run start`
+
+## How it works?
+
+- The user needs to login before they can vote or create poll
+- The user will be ranked in the leaderboard based on the number of question created and answered.
+- The user can create a poll with two option.
+
+
+
+## packages used
+
+for design:
+- daisyui
+- tailwind
+
+for testing:
+- jest
+- react testing library
+
+for state management:
+- react-redux
+- reduxjs/toolkit
+
 ## Data
 
 There are two types of objects stored in our database:
